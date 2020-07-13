@@ -1,9 +1,9 @@
 ### Hi there, Erbo at your service👋
 
 - 💦 I'm working at Fortinet as a Backend Developer.
-- 🔭 I’m currently working on flutter natives apps/webs
+- 🔭 I’m currently working on flutter native apps/webs
 - 🌱 I’m currently learning dart, Go, Angular.
-- 😏 I graduated from Simon Fraser University as CS student.
+- 😏 I graduated from Simon Fraser University as a CS student.
 - 👯 I’m looking to collaborate on iOS/android native app.
 - ✨ Die hard fan of World of Warcraft, Sekiro and all series of Monster Hunter.
 - 	:trollface:  Ask me about anything, but I will not answer you.
