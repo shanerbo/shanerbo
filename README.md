@@ -1,6 +1,6 @@
 ### Hi there, Erbo at your service👋
 
-- 💦 I'm working at: Fortinet as Backend Developer.
+- 💦 I'm working at Fortinet as a Backend Developer.
 - 🔭 I’m currently working on flutter natives apps/webs
 - 🌱 I’m currently learning dart, Go, Angular.
 - 😏 I graduated from Simon Fraser University as CS student.
