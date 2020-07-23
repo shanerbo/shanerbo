@@ -9,4 +9,3 @@
 - 	:trollface:  Ask me about anything, but I will not answer you.
 - 📫 How to reach me: shanerbo@gmail.com
 - ⚡ Fun fact: allergy to fur but per lover, poor but good at spending money on useless stuffs. Not smart but willing to learn.
-- 💖 21st century's best pianist is Langlang, no arugements can be accepted.(It is not possible? No, it's necessary)
