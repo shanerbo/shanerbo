@@ -6,4 +6,4 @@
 - ✨ Die hard fan of World of Warcraft, Sekiro and all series of Monster Hunter.
 - 	:trollface:  Ask me about anything, but I will not answer you.
 - 📫 How to reach me: shanerbo@gmail.com
-- ⚡ Fun fact: allergy to fur but per lover, poor but good at spending money on useless stuffs. Not smart but willing to learn.
+- ⚡ Fun fact: allergy to fur but pet lover, poor but good at spending money on useless stuffs. Not smart but willing to learn.
