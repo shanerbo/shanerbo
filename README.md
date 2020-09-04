@@ -3,7 +3,5 @@
 - 💦 I'm working at Fortinet as a Backend Developer.
 - 🔭 I’m currently working on flutter native apps/webs learning dart, Go, Angular.
 - 👯 I’m looking to collaborate on iOS/android native app.
-- ✨ Die hard fan of World of Warcraft, Sekiro and all series of Monster Hunter.
 - 	:trollface:  Ask me about anything, but I will not answer you.
 - 📫 How to reach me: shanerbo@gmail.com
-- ⚡ Fun fact: allergy to fur but pet lover, poor but good at spending money on useless stuffs. Not smart but willing to learn.
