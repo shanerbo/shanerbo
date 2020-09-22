@@ -11,6 +11,6 @@
 </td>
 
 <td valign="top" width="40%">
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@shanerbo/abab70a0-7ad6-4b63-a375-407ee0f16427.png" /></a>
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@shanerbo/13e1dbd1-164d-45ca-a96b-bac3fa5752d5.png" /></a>
 </td>
 </tr></table>
