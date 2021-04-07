@@ -11,4 +11,4 @@
 
 ![Erbo's github stats](https://github-readme-stats.vercel.app/api?username=shanerbo&show_icons=true&count_private=true&include_all_commits=true&custom_title=GG%21&hide_border=true&theme=tokyonight)
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=shanerbo&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+<!--[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=shanerbo)](https://github.com/anuraghazra/github-readme-stats)-->
