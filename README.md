@@ -109,27 +109,37 @@ long-term data ownership
 
 ### 📱 [FleckMobile](https://github.com/shanerbo/FleckMobile)
 
-The native mobile client for Fleck.
+The native iOS app for Fleck.
 
-The mobile app focuses on:
+FleckMobile owns the phone-side experience:
 
-- Native iOS UX
-- Local photo selection
-- GPS-backed memory capture
-- Batch upload orchestration
-- Mobile API integration
-- TestFlight distribution
-- Simulator and device validation
+- Import GPS-backed flecks
+- Browse memories by map, place, and date
+- Switch between your own map and connected maps
+- Accept private connection invites through universal links
+- Pick local photos and run resumable import sessions
+- Handle retry, resume, cleanup, diagnostics, and TestFlight builds
+
+Stack:
+
+- Expo SDK 54
+- React Native 0.81
+- TypeScript
+- Expo Router
+- Clerk
+- Apple Maps via `react-native-maps`
+- TanStack Query with persisted cache
+- Sentry
+- EAS Build + TestFlight
 
 The split is intentional:
 
 ~~~text
-backend = canonical contracts, auth, storage, data model
-mobile = capture flow, local UX, upload reliability
+Fleck backend = canonical API, auth, storage, database, infra
+FleckMobile = native capture, map UX, upload reliability, TestFlight release
 ~~~
 
-I care about the full loop: not just building an API, but making the product actually usable from someone’s phone.
-
+I care about the full product loop: not just making an API work, but making memory capture reliable from someone’s phone.
 ---
 
 ## Engineering Background
