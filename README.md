@@ -1,27 +1,28 @@
-### Erbo at your service <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/> 
+## Erbo at your service <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/> 
 
-Software engineer. Systems background. AI product builder.
+Software engineer. Systems background. Building weird useful things.
 
-I currently work as an SDE II at AWS. Before that, I worked heavily with C/C++ systems programming, including HTTP protocol handling, server I/O, startup optimization, network performance, and backend security.
+I currently work as an SDE II at AWS. Before that, I spent a lot of time in C/C++ land: HTTP internals, server I/O, startup performance, network performance, and backend security.
 
-My core strength is taking ambiguous technical problems and reducing them into concrete systems, rules, and tradeoffs.
+I like turning messy problems into concrete systems, rules, and tradeoffs.
 
 ---
 
 ## What I’m Building
 
-I’m actively working on three projects that reflect the same theme:
+I’m actively working on a few projects that sit somewhere between:
 
 ~~~text
-low-level systems thinking
-+ product-oriented software
-+ personal data
-+ AI-native workflows
+systems engineering
+personal data
+AI-native workflows
+location-based products
+tiny compilers
 ~~~
 
-### [Potato / erbos-lang](https://github.com/shanerbo/erbos-lang)
+### 🥔 [Potato / erbos-lang](https://github.com/shanerbo/erbos-lang)
 
-A systems programming language that reads closer to English and compiles to native ARM64 code.
+A small systems programming language that reads more like English and compiles to native ARM64 code.
 
 Potato uses `.ptt` files and is designed around:
 
@@ -51,15 +52,17 @@ spark {
 }
 ~~~
 
-This project is where I explore language design, compiler construction, memory safety, and how far a small systems language can go without carrying a large runtime.
+This is where I explore language design, compiler construction, memory safety, and the question:
+
+> How much can a tiny systems language do before it becomes a big one?
 
 ---
 
-### [Fleck Backend / EatJournals](https://github.com/shanerbo/EatJournals)
+### 🗺️ [Fleck Backend / EatJournals](https://github.com/shanerbo/EatJournals)
 
 Fleck is a private, map-first memory archive.
 
-The product idea is simple:
+The idea:
 
 ~~~text
 save moments
@@ -81,19 +84,17 @@ This repo owns the backend, web app, database, storage, and infrastructure:
 - Vercel deployment
 - Terraform-managed infrastructure
 
-The current product is invite-only private beta.
-
-I care about Fleck because it is not just another CRUD app. It is a personal data product with real constraints: auth, privacy, media storage, mobile upload reliability, maps, infrastructure, and operational correctness.
+Fleck is not just a CRUD app with a map slapped on top. It has real product constraints: privacy, auth, media storage, GPS data, mobile uploads, infra, and operational correctness.
 
 ---
 
-### [FleckMobile](https://github.com/shanerbo/FleckMobile)
+### 📱 [FleckMobile](https://github.com/shanerbo/FleckMobile)
 
 The native mobile client for Fleck.
 
 The mobile app focuses on:
 
-- Native iOS user experience
+- Native iOS UX
 - Local photo selection
 - GPS-backed memory capture
 - Batch upload orchestration
@@ -101,13 +102,20 @@ The mobile app focuses on:
 - TestFlight distribution
 - Simulator and device validation
 
-The backend API contract lives in the Fleck backend repo, while the mobile app owns the native capture and upload flow.
+The split is intentional:
 
-This split is intentional: backend contracts stay canonical, while mobile remains focused on the user-facing capture experience.
+~~~text
+backend = canonical contracts, auth, storage, data model
+mobile = capture flow, local UX, upload reliability
+~~~
+
+I care about the full loop: not just building an API, but making the product actually usable from someone’s phone.
 
 ---
 
 ## Engineering Background
+
+I’ve worked mostly around backend and infrastructure systems:
 
 - Backend systems
 - Cloud services
@@ -120,7 +128,7 @@ This split is intentional: backend contracts stay canonical, while mobile remain
 - Product engineering
 - Mobile/backend API design
 
-I care about latency, correctness, simplicity, and operational reality.
+I care about latency, correctness, simplicity, and whether the thing survives contact with reality.
 
 ---
 
@@ -139,7 +147,9 @@ I care about latency, correctness, simplicity, and operational reality.
 
 ---
 
-## Principles
+## How I Think
+
+I like:
 
 - First principles over cargo culting
 - Clear verdicts over vague analysis
@@ -159,15 +169,11 @@ What data does this preserve, transform, or clarify?
 
 ---
 
-## Outside Engineering
+## Outside Software
 
-I train seriously for running and cycling.
+Outside software, I train for running and cycling.
 
-- Half marathon: **1:42**
-- Cycling FTP: **266W**
-- RBC GranFondo: **3:32**
-
-Endurance sports shape how I think about software: measure honestly, build feedback loops, remove waste, and compound small improvements over time.
+I like endurance sports for the same reason I like systems work: feedback loops, constraints, compounding improvement, and brutally honest measurements.
 
 ---
 
@@ -183,7 +189,7 @@ location-based products
 decision systems
 ~~~
 
-I’m especially interested in small, useful products that combine structured domain logic with practical software engineering.
+Small, useful products. Clear constraints. Real users. Less fluff.
 
 ---
 
