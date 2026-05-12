@@ -247,6 +247,33 @@ brutally honest measurements
 
 ---
 
+## 📊 Repo Snapshot
+
+My GitHub history is basically a trail of experiments: some serious, some messy, some purely for learning.
+
+Right now I’m focused on **3 active projects**:
+
+- 🥔 **Potato / erbos-lang** — tiny systems language + compiler
+- 🗺️ **Fleck** — private geospatial memory archive
+- 📱 **FleckMobile** — native iOS client for Fleck
+
+Across my repos, I’ve explored:
+
+| Theme | Examples |
+|---|---|
+| **Systems** | C/C++, web servers, runtime experiments, compiler work |
+| **Product apps** | Fleck, mobile apps, web apps, e-commerce tools |
+| **Mobile** | Expo, React Native, Flutter, iOS builds |
+| **Backend / infra** | Next.js, Prisma, Postgres, R2, Vercel, Terraform |
+| **CS fundamentals** | algorithms, data structures, LeetCode, system design |
+| **AI / CV experiments** | image prediction, automation, ML-adjacent prototypes |
+
+~~~text
+public repos + private builds + experiments
+→ currently converging toward systems-heavy product engineering
+~~~
+---
+
 ## 🔗 Links
 
 **Website:** [erbos.me](https://erbos.me)  
