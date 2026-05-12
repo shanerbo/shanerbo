@@ -58,20 +58,22 @@ This is where I explore language design, compiler construction, memory safety, a
 
 ---
 
-### 🗺️ [Fleck Backend / EatJournals](https://github.com/shanerbo/EatJournals)
+### 🗺️ [Fleck](https://github.com/shanerbo/EatJournals)
 
-Fleck is a private, map-first memory archive.
+Fleck is a private, map-first memory archive — closer to a geospatial memo app than a food journal.
 
-The idea:
+The product has pivoted from its original eating + AI direction into something more focused:
 
 ~~~text
-save moments
+capture memories
 anchor them to places
 revisit them by map or date
-share read-only access through mutual connections
+share selectively through private connections
 ~~~
 
-This repo owns the backend, web app, database, storage, and infrastructure:
+This repo currently carries the legacy `EatJournals` name, but the product direction is Fleck: memo + geospatial context + private social graph.
+
+The repo owns the backend, web app, database, storage, and infrastructure:
 
 - Next.js App Router
 - TypeScript
@@ -84,9 +86,26 @@ This repo owns the backend, web app, database, storage, and infrastructure:
 - Vercel deployment
 - Terraform-managed infrastructure
 
-Fleck is not just a CRUD app with a map slapped on top. It has real product constraints: privacy, auth, media storage, GPS data, mobile uploads, infra, and operational correctness.
+Fleck is not just a CRUD app with a map slapped on top. It has real product constraints:
 
----
+- Privacy
+- Auth
+- Media storage
+- GPS data
+- Mobile uploads
+- Private sharing
+- Infrastructure
+- Operational correctness
+
+I’m interested in the product because it sits at an unusual intersection:
+
+~~~text
+personal memory
+geospatial context
+private social graph
+mobile capture
+long-term data ownership
+~~~
 
 ### 📱 [FleckMobile](https://github.com/shanerbo/FleckMobile)
 
